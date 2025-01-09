@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <input type="text" id="search" placeholder="Pesquisar">
+                <button onclick="filterGallery()"> <img src="img/search.svg" alt=".">
+                </button>
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container text-center">
+        <div class="row row-cols-4" id="gallery">
+
+            <div class="col">
+                <img src="https://images.pexels.com/photos/30058743/pexels-photo-30058743.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Natureza 1" alt="Natureza 1" width="300px" height="300px">
+                <p>Natureza</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/15481505/pexels-photo-15481505/free-photo-of-nublado-nyc-minha-foto-favorita-de-todos-os-tempos.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Cidade 1" alt="Cidade 1" width="300px" height="300px">
+                <p>Cidade</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Animais 1" alt="Animais 1" width="300px" height="300px">
+                <p>Animais</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Praia 1" alt="Praia 1" width="300px" height="300px">
+                <p>Praia</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/15723656/pexels-photo-15723656/free-photo-of-cidade-meio-urbano-ruas-vias.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Cidade 2" alt="Cidade 2" width="300px" height="300px">
+                <p>Cidade</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/15202927/pexels-photo-15202927/free-photo-of-frio-com-frio-alvorecer-amanhecer.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Montanha 1" alt="Montanha 1" width="300px" height="300px">
+                <p>Montanha</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/14458423/pexels-photo-14458423.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Cidade 3" alt="Cidade 3" width="300px" height="300px">
+                <p>Cidade</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Animais 2" alt="Animais 2" width="300px" height="300px">
+                <p>Animais</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Praia 2" alt="Praia 2" width="300px" height="300px">
+                <p>Praia</p>
+            </div>
+            <div class="col">
+                <img src="https://images.pexels.com/photos/6559794/pexels-photo-6559794.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    data-title="Cidade 4" alt="Cidade 4" width="300px" height="300px">
+                <p>Cidade</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright, por exemplo, “© 2024 Galeria de Fotos. Todos os direitos reservados.”</p>
+    </footer>
+
+
+
+</body>
+
+</html>
