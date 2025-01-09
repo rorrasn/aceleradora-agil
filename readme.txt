@@ -57,8 +57,4 @@ Você também pode ver a lista de todos os colaboradores que participaram deste 
 📄 Licença
 Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE.md para detalhes.
 
-🎁 Expressões de gratidão
-Conte a outras pessoas sobre este projeto 📢;
-Convide alguém da equipe para uma cerveja 🍺;
-Um agradecimento publicamente 🫂;
-etc.
+
